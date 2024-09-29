@@ -9,10 +9,10 @@ const service_router = require('./router/service-router')
 const cors = require('cors');
 const admin_router = require('./router/admin-router');
 const path = require('path');
-const URL = "servicenow-backend.vercel.app";
+const URL = "https://servicenow-kappa.vercel.app";
 
 const corsOption = {
-    origin: "https://servicenow-backend.vercel.app",
+    origin: "https://servicenow-kappa.vercel.app",
     methods: 'GET, POST, PUT, DELETE, PATCH, HEAD',
     credentials: true
 }
