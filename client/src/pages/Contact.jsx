@@ -12,7 +12,7 @@ const defaultdata = {
 
 export const Contact = () => {
   
-  const API = import.meta.env.VITE_APP_URI_API;
+    const API = "https://servicenow-backend.vercel.app";
   const [contact, setContact] = useState(defaultdata);
   const { user, isLoggedIn } = useAuth();
   const navigate = useNavigate();
