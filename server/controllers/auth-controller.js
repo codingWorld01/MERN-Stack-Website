@@ -24,7 +24,7 @@ const register = async (req, res) => {
         res.status(201).json({ msg: data, tocken: await data.generateTocken(), userId: data._id.toString() });
     }
     catch (error) {
-        console.log(error);
+        console.log("Error kyu aa "+error);
     }
 }
 
