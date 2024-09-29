@@ -12,7 +12,7 @@ const path = require('path');
 const URL = "servicenow-backend.vercel.app";
 
 const corsOption = {
-    origin: "https://servicenow-kappa.vercel.app",
+    origin: "https://servicenow-backend.vercel.app",
     methods: 'GET, POST, PUT, DELETE, PATCH, HEAD',
     credentials: true
 }
