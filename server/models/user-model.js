@@ -53,7 +53,7 @@ userSchema.methods.generateTocken = function () {
             email: this.email,
             isAdmin: this.isAdmin
         },
-        process.env.JWT_SECRET_KEY
+        "THISISMERNSTACKPROJECT"
         , 
         {
             expiresIn: "30d",
