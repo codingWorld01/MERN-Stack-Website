@@ -1,0 +1,89 @@
+/* * -----------------------
+** contact, login, registeration section css
+** -------------------------  */
+
+.section-registration {
+  & .contact-content {
+    padding: 0;
+
+    & h1 {
+      font-size: 6.2rem;
+    }
+  }
+
+  & .container {
+    padding-top: 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  & .registration-image {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    & img {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  & .registration-form {
+    & form {
+      display: flex;
+      flex-direction: column;
+      gap: 3.2rem;
+    }
+
+    & label {
+      display: block;
+      margin-bottom: 1.2rem;
+      text-transform: capitalize;
+    }
+
+    & input,
+    textarea {
+      width: 80%;
+      padding: 0.4rem 0.6rem;
+    }
+  }
+}
+
+.btn-wid {
+  width: 80%;
+}
+
+.test {
+  font-size: 1.5rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .btn-wid {
+    width: 100%;
+  }
+  .section-registration .container {
+    grid-template-columns: 1fr;
+    padding: 1.6rem;
+  }
+
+  .section-registration .registration-image {
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  .section-registration .registration-form {
+    width: 100%;
+
+    & input,
+    textarea {
+      width: 100%;
+    }
+  }
+}
+
