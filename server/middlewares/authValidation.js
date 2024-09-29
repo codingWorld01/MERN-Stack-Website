@@ -16,7 +16,7 @@ const authValidation = async (req, res, next) => {
 
         // console.log("jwttoken ", jwttoken);
 
-        const isverified = jwt.verify(jwttoken, process.env.JWT_SECRET_KEY);
+        const isverified = jwt.verify(jwttoken, "THISISMERNSTACKPROJECT");
         // console.log(isverified);
 
         if (isverified) {
