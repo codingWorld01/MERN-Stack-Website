@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-// const URI = 'mongodb://127.0.0.1:27017/mern_admin';
-const URI = process.env.MONGODB_URL;
+const URI = 'mongodb+srv://yatharth01:shiva123@cluster0.zuqqkxe.mongodb.net/mern_admin?';
+// const URI = process.env.MONGODB_URL;
 
 const connectDB = async () => {
     try {
