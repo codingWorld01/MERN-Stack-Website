@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom"
 
 export const AdminUsers = () => {
     const { token } = useAuth();
-    const API = "https://servicenow-backend.vercel.app";
+    const API = "https://servicenow-backend-api.vercel.app";
 
     const [data, setData] = useState([]);
     useEffect(() => {
