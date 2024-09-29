@@ -36,6 +36,7 @@ export const Register = () => {
 
       const response = await fetch(`${API}/register`, {
         method: "POST",
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json'
         },
