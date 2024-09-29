@@ -31,7 +31,7 @@ export const Register = () => {
   // handle form on submit
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(user);
+    console.log("HEllo WORLD");
     try {
 
       const response = await fetch(`${API}/register`, {
