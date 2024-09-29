@@ -5,7 +5,7 @@ import '../style/Service.css';
 export const Service = () => {
   const { services } = useAuth();
   const navigate = useNavigate();
-  const API = import.meta.env.VITE_APP_URI_API;
+    const API = "https://servicenow-backend.vercel.app";
 
   return <>
     <br />
