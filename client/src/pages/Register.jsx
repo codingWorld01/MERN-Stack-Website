@@ -13,7 +13,7 @@ export const Register = () => {
     password: "",
   });
 
-  const API = import.meta.env.VITE_APP_URI_API;
+    const API = "https://servicenow-backend.vercel.app";
   const { storeTokenInLS } = useAuth();
   const navigate = useNavigate();
 
