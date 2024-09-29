@@ -7,8 +7,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState("");
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
-    const API = "https://servicenow-backend.vercel.app";
-
+    const API = "https://servicenow-backend-api.vercel.app";
   const storeTokenInLS = (serverToken) => {
     // console.log(serverToken)
     setToken(serverToken);
