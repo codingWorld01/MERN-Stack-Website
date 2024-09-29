@@ -13,7 +13,7 @@ export const Register = () => {
     password: "",
   });
 
-    const API = "https://servicenow-kappa.vercel.app";
+    const API = "https://servicenow-backend.vercel.app";
   const { storeTokenInLS } = useAuth();
   const navigate = useNavigate();
 
