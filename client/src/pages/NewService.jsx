@@ -6,7 +6,7 @@ import axios from 'axios'
 
 export const NewService = () => {
 
-    const API = "https://servicenow-backend.vercel.app";
+    const API = "https://servicenow-backend-api.vercel.app";
     const { token } = useAuth();
     const navigate = useNavigate();
     const [data, setData] = useState({
