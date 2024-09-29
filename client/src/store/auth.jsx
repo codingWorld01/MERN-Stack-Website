@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState("");
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
-  const API = import.meta.env.VITE_APP_URI_API;
+    const API = "https://servicenow-backend.vercel.app";
 
   const storeTokenInLS = (serverToken) => {
     // console.log(serverToken)
