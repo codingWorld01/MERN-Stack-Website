@@ -10,7 +10,7 @@ export const UpdateUser = () => {
         phone: ''
     });
 
-    const API = import.meta.env.VITE_APP_URI_API;
+    const API = "https://servicenow-backend.vercel.app";
     const navigate = useNavigate();
     const { token } = useAuth();
     const params = useParams();
