@@ -9,7 +9,7 @@ const service_router = require('./router/service-router')
 const cors = require('cors');
 const admin_router = require('./router/admin-router');
 const path = require('path');
-const URL = process.env.BASE_URL;
+const URL = "servicenow-backend.vercel.app";
 
 const corsOption = {
     origin: URL,
