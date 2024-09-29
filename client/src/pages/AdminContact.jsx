@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 export const AdminContact = () => {
     const { token } = useAuth();
-    const API = import.meta.env.VITE_APP_URI_API;
+    const API = "https://servicenow-backend.vercel.app";
 
     const [data, setData] = useState([]);
     useEffect(() => {
