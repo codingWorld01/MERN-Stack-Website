@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const AdminServices = () => {
 
-    const API = import.meta.env.VITE_APP_URI_API;
+    const API = "https://servicenow-backend.vercel.app";
     const { token } = useAuth();
     const [data, setData] = useState([])
     useEffect(() => {
